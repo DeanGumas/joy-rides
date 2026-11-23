@@ -1,0 +1,12 @@
+# Install with:  uv venv --python 3.12 && uv pip install -r requirements.txt
+
+# Data pipeline (rasterio wheels bundle GDAL, so no system install needed)
+numpy==2.5.5
+rasterio==1.5.2
+scipy==1.18.1
+pillow==13.0.0
+requests==2.34.2
+
+# Web backend
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
